@@ -20,13 +20,11 @@ Once TouchType is successfully installed, you can start the program by typing `t
 touchtype
 ```
 
-This command will launch the game and take you to the first level.
+This command will start the touchtype home screen. From here you can set your preferences, and launch any of the touchtype game modes.
 
-## Gameplay
+## Game modes - Tutorial
 
-The objective of TouchType is to improve your typing skills by practicing typing on the keyboard. The game consists of a series of levels, and each level introduces new keys on the keyboard.
-
-Upon starting the game you will be presented with a sequence of characters that you need to type as accurately and quickly as possible.
+The tutorial introduces new keys on the keyboard little by little, starting with the keys under the index fingers on the home row.
 
 Once you feel comfortable with the keys in play, press `Enter` to move to the next level. With each level new keys are introduced.
 

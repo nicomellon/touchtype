@@ -168,8 +168,7 @@ def init_colors() -> Colors:
 
 
 def start(screen: curses.window) -> None:
-    layout = config.layout
     colors = init_colors()
     tutorial = [Level1, Level2, Level3, Level4, Level5, Level6, Level7]
     for level in tutorial:
-        level.play(screen, layout, colors)
+        level.play(screen, config.layout, colors)

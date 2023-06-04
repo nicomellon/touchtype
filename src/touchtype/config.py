@@ -1,6 +1,6 @@
 import json
 
-from . layouts import KeyboardLayout, Qwerty
+from . layouts import KeyboardLayout, Colemak, Dvorak, Qwerty
 
 
 class Config:
@@ -26,6 +26,10 @@ class Config:
     def layout(self) -> KeyboardLayout:
         config = self._load_config()
         match config.get("layout"):
+            case Colemak.name:
+                return Colemak()
+            case Dvorak.name:
+                return Dvorak()
             case Qwerty.name:
                 return Qwerty()
             case _:
